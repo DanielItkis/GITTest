@@ -181,9 +181,9 @@ public class Dose_Calculation_red implements PlugIn{
 		gd = new GenericDialog("Enter Parameters RED Channel", IJ.getInstance()); 
 		gd.addMessage("Please insert your parameters for calibration");
 		//parameters from C.Richter Kalibrierung (5MeV), eingefuegt 07062011
-		gd.addNumericField("p1", 8.50457, 5); // Suggestions for parameters
-		gd.addNumericField("p2", 16.92152, 5);
-		gd.addNumericField("p3", 2.40561, 3);
+		gd.addNumericField("p1", 10.3887, 5); // Suggestions for parameters
+		gd.addNumericField("p2", 8.7586, 5);
+		gd.addNumericField("p3", 1.8338, 3);
 		gd.addMessage("Please insert your constant parameters");
 		gd.addNumericField("Dark current of the scanner", 0, 2);
 		gd.addNumericField("Transparency of the unexposed film", 204, 2);
